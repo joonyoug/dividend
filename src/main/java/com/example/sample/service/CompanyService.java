@@ -78,11 +78,7 @@ public class CompanyService {
         this.deleteAutoComplete(companyEntity.getName());
 
         return companyEntity.getName();
-
-
-
     }
-
     public void addAutoCompleteKeyword(String keyword){
         this.trie.put(keyword,null);
     }

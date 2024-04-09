@@ -1,10 +1,7 @@
 package com.example.sample.persist.entity;
 
 import com.example.sample.model.Company;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
 
@@ -13,6 +10,7 @@ import javax.persistence.*;
 @Setter
 @ToString
 @NoArgsConstructor
+
 public class CompanyEntity {
 
     @Id
